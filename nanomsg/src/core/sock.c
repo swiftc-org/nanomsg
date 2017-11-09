@@ -73,7 +73,7 @@ static void nn_sock_shutdown (struct nn_fsm *self, int src, int type,
 int nn_sock_init (struct nn_sock *self, const struct nn_socktype *socktype,
     int fd)
 {
-    int rc;
+    int rc = 0;
     int i;
 
     /* Make sure that at least one message direction is supported. */
