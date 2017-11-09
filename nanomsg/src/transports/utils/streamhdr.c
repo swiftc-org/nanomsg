@@ -1,5 +1,6 @@
 /*
     Copyright (c) 2013 Martin Sustrik  All rights reserved.
+    Copyright 2017 Garrett D'Amore <garrett@damore.org>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"),
@@ -261,7 +262,6 @@ invalidhdr:
         case NN_STREAMHDR_SRC_USOCK:
             /*  It's safe to ignore usock event when we are stopping, but there
                 is only a subset of events that are plausible. */
-            nn_assert (type == NN_USOCK_ERROR);
             return;
 
         case NN_STREAMHDR_SRC_TIMER:
@@ -290,9 +290,7 @@ invalidhdr:
         switch (src) {
 
         case NN_STREAMHDR_SRC_USOCK:
-            /*  It's safe to ignore usock event when we are stopping, but there
-                is only a subset of events that are plausible. */
-            nn_assert (type == NN_USOCK_ERROR);
+            /*  It's safe to ignore usock event when we are stopping. */
             return;
 
         case NN_STREAMHDR_SRC_TIMER:

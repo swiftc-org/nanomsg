@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003A481D1FB46DC00061596E /* nn.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CC781F62762F006002DA /* nn.h */; };
+		003A481E1FB46DDA0061596E /* inproc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CC761F62762F006002DA /* inproc.h */; };
+		003A481F1FB46DE10061596E /* ipc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CC771F62762F006002DA /* ipc.h */; };
+		003A48201FB46DE80061596E /* tcp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CCB91F62762F006002DA /* tcp.h */; };
+		003A48211FB46DEF0061596E /* ws.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CD421F62762F006002DA /* ws.h */; };
+		003A48221FB46DFA0061596E /* pair.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CC791F62762F006002DA /* pair.h */; };
+		003A48231FB46E020061596E /* pubsub.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CCB51F62762F006002DA /* pubsub.h */; };
+		003A48241FB46E0E0061596E /* reqrep.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CCB71F62762F006002DA /* reqrep.h */; };
+		003A48251FB46E150061596E /* pipeline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CC7A1F62762F006002DA /* pipeline.h */; };
+		003A48261FB46E1C0061596E /* survey.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CCB81F62762F006002DA /* survey.h */; };
+		003A48271FB46E220061596E /* bus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0059CC651F62762F006002DA /* bus.h */; };
 		0059CC321F625C1C006002DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0059CC311F625C1C006002DA /* main.m */; };
 		0059CC351F625C1C006002DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0059CC341F625C1C006002DA /* AppDelegate.m */; };
 		0059CC381F625C1C006002DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0059CC371F625C1C006002DA /* ViewController.m */; };
@@ -121,6 +132,17 @@
 			dstPath = include;
 			dstSubfolderSpec = 16;
 			files = (
+				003A48271FB46E220061596E /* bus.h in CopyFiles */,
+				003A48261FB46E1C0061596E /* survey.h in CopyFiles */,
+				003A48251FB46E150061596E /* pipeline.h in CopyFiles */,
+				003A48241FB46E0E0061596E /* reqrep.h in CopyFiles */,
+				003A48231FB46E020061596E /* pubsub.h in CopyFiles */,
+				003A48221FB46DFA0061596E /* pair.h in CopyFiles */,
+				003A48211FB46DEF0061596E /* ws.h in CopyFiles */,
+				003A48201FB46DE80061596E /* tcp.h in CopyFiles */,
+				003A481F1FB46DE10061596E /* ipc.h in CopyFiles */,
+				003A481E1FB46DDA0061596E /* inproc.h in CopyFiles */,
+				003A481D1FB46DC00061596E /* nn.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
